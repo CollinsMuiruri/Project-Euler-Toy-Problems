@@ -10,8 +10,8 @@ import emoji
 
 
 # check permutations until we find the word 'crack'
-for x in product('ARCK', repeat=5):
+for x in product('123', repeat=3):
     w = ''.join(x)
-    print(w)
+    print (w)
     if w.lower() == 'crack': break
     print(emoji.emojize(':+1:', use_aliases=True))
